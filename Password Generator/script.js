@@ -10,17 +10,17 @@ function writePassword() {
 function generatePassword() {
     var passwordLength = parseInt(prompt ("Enter Password Length (Between and 128):"));
     
-    // selecting onoe of each Char type//
+    // selecting one of each Char type//
     var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
     var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var numberChars = "0123456789";
     var specialChars = "!@#$%^&*()-_=+[]{}|;:,.<>?";
-    
+    // prompt questions//
     var includeLowercase = confirm("Include lowercase characters?");
     var includeUppercase = confirm("Include Uppercase characters?");
     var includeNumbers= confirm("Include numbers?");
     var includeSpecialChars = confirm("Include special characters?");
-    
+    //logic for passowrd character selection
     var availableChars = "";
     var generatedPassword = "";
 
