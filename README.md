@@ -17,7 +17,10 @@ Passwords are customizable based on the character types and password legnth you 
 - At leat one Character type must be selected for the password generation.
 
 ## Screenshots
-![Password Generator Screenshot](./Password%20Generator/assets/Password-Generator_Screenshot.gif) (https://aliahg97.github.io/Password-Generator/)
+![Password Generator Screenshot](./assets/Images/Password-Generator_Screenshot.gif)
+
+
+[Deploy Site link](https://aliahg97.github.io/Password-Generator)
 
 
 ## Contributing
